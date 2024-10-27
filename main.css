@@ -1,0 +1,139 @@
+#tenblog{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 106, 255, 0.73);
+    margin-bottom: 0px;
+    width: 100%;    /* Dài */
+    height: 50px;   /* Rộng */
+    text-align: center;
+    border: 2px rgb(25, 0, 48) solid;
+    border-radius: 10px;
+    
+}
+
+#tenblog_{
+    color: rgb(0, 0, 0);
+    margin-top: 13px;
+    
+}
+
+#khoimenu{
+    display:flex;
+    margin-top: 0px;       /* Căn lề */
+    flex-direction: row;
+    height: 50px;
+    background-color: aquamarine;
+    text-align: center;
+    border: 2px rgb(0, 255, 187) solid;
+    border-radius: 10px;
+}
+.khoimenu_con{
+    background-color: rgb(32, 7, 69);
+    display: flex; 
+    flex-direction:row; 
+    width: 500px;
+    height: auto;
+    margin-top: 10px ;
+    margin-bottom:5px ;
+    margin-left: 10px;
+    border: 2px rgb(73, 14, 235) solid;
+    border-radius: 10px;
+    padding-top: 5px;
+    text-align: center;
+    justify-content: center;
+
+}
+.menuchu{
+    margin: 0px;
+    color: aliceblue;
+    cursor: pointer;        
+    
+}
+#khoinoidung{
+    display: flex;
+    flex-direction: row;
+}
+#sideleft{
+    display: flexbox;
+    flex-direction: column;
+    height: 400px;
+    width: 35%;
+    background-color: rgb(64, 255, 0);
+    margin-top: 0px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-right: 10px;   
+}
+#baiviet{
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.sudung{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 10px;
+}
+#sideright{
+    margin-left: auto ;
+    width: 750px;
+    background-color: rgb(43, 49, 226);
+    border: 2px solid;
+    border-radius: 10px;
+}
+.anh{
+    height: 100px;
+    width: 100px;
+}
+.sideright_con{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border: 2px rgb(87, 203, 9) dashed ; /* Khung */
+    border-radius: 5px; 
+    margin-left: 100px;
+}
+.sideright_chu{
+    margin-left: 100px;
+    color: red;
+}
+
+
+.daucach{
+    height: 1px;
+    width: 600px;
+    border-top: solid;  
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#chantrang{
+    background-color: black;
+    
+}
+.chantrang_chu{
+    color: aliceblue;
+    margin: 2px;
+    margin-left: 10px;
+}
+#contact{   
+    margin-bottom: 5px;
+}
+
+.sideright_con_{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    margin-left: 400px;
+    margin-top: 20px;
+    background-color: rgb(205, 3, 3);
+    border: 2px rgb(9, 149, 34) solid;
+    border-radius: 10px;
+}
+.btna{
+    color: aliceblue;
+    text-decoration: none;
+  
+}
